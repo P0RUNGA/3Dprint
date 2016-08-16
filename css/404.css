@@ -1,0 +1,23 @@
+#content{
+	background: url(../images/p.jpg) no-repeat;
+	background-size: cover;
+	min-height: 1000px;
+	text-align: center;
+}
+.row-1{
+	font-size: 15em;
+	color: #999;
+	padding-top: 250px;
+}
+.row-2{
+	font-size: 5em;
+	color: #DA491C;
+}
+.row-3{
+	padding-top: 50px;
+	font-size: 1.5em;
+	color: #888;
+}
+.button{
+	margin-top: 50px;
+}

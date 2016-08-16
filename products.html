@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="css/common.css" media="screen"/>
+	<link rel="stylesheet" href="css/products.css" media="screen"/>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<title>Products</title>
+</head>
+<body>
+	<div id="header" style="min-height:300px;">
+		<div class="container">
+			<div id="nav">
+				<ul>
+					<li class="navigation"><a href="index.html">主页<span>Lorem ipsum dolor sit amet</span></a></li>
+					<li class="navigation"><a href="about.html">关于<span>Lorem ipsum dolor sit amet</span></a></li>
+					<li class="navigation active"><a href="products.html">产品展示<span>Lorem ipsum dolor sit amet</span></a></li>
+					<li class="navigation"><a href="404.html">活动<span>Lorem ipsum dolor sit amet</span></a></li>
+					<li class="navigation"><a href="mail.html">联系我们<span>Lorem ipsum dolor sit amet</span></a></li>
+				</ul>
+			</div>
+			<a href="index.html"><img src="images/logo1.png" alt="This is 3Dprint logo."/></a>
+		</div>
+	</div><!-- //header -->
+
+	<div id="content">
+		<div class="container">
+			<div id="row0"></div>
+			<div id="row1">
+				<div id="row1right">
+					<ul>
+						<li id="li1"><a href=""><img src="images/p1.jpg"/></a></li>
+						<li id="li2"><a href=""><img src="images/p2.jpg"/></a></li>
+						<li id="li3"><a href=""><img src="images/p3.jpg"/></a></li>
+						<li id="li4"><a href=""><img src="images/p4.jpg"/></a></li>
+					</ul>
+				</div><!-- //row1right -->
+				<div id="row1left">
+					<div id="list" style="left:0px;">
+                		<a href=""><img id="p1" src="images/p5.jpg"/></a>
+	                	<a href=""><img id="p2" src="images/p6.jpg"/></a>
+	                	<a href=""><img id="p3" src="images/p7.jpg"/></a>
+	                	<a href=""><img id="p4" src="images/p8.jpg"/></a>
+                	</div>
+                	<script>
+	                	 $(document).ready(function(){
+	                	 	$("#li1").mouseover(function(){
+	                	 		$("#p2").hide();
+	                	 		$("#p3").hide();
+	                	 		$("#p4").hide();
+	                	 		$("#p1").fadeIn(1000);
+	                	 	});
+	                	 	$("#li2").mouseover(function(){
+	                	 		$("#p1").hide();
+	                	 		$("#p3").hide();
+	                	 		$("#p4").hide();
+	                	 		$("#p2").fadeIn(1000);
+	                	 	});
+	                	 	$("#li3").mouseover(function(){
+	                	 		$("#p1").hide();
+	                	 		$("#p2").hide();
+	                	 		$("#p4").hide();
+	                	 		$("#p3").fadeIn(1000);
+	                	 	});
+	                	 	$("#li4").mouseover(function(){
+	                	 		$("#p1").hide();
+	                	 		$("#p2").hide();
+	                	 		$("#p3").hide();
+	                	 		$("#p4").fadeIn(1000);
+	                	 	});
+	                	 });
+                	</script>
+               </div><!-- //row1left -->
+			</div><!-- //row1 -->
+			<div id="row2">
+				<p style="clear:right;"><span style="color:#DA491C;font-size:2em;font-weight:bold;margin-right:10px;">|</span><span style="color:#333;font-size:2em;">精选推荐</span></p>
+				<div class="main_list">
+					<div class="one_main">
+						<a href=""><img src="images/po1.jpg" width="226px" height="168px"><p class="main_p1">超级赛车</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po2.jpg" width="226px" height="168px"><p class="main_p1">艺术花瓶</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po3.jpg" width="226px" height="168px"><p class="main_p1">荷叶灯罩</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po4.jpg" width="226px" height="168px"><p class="main_p1">杯子</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po5.jpg" width="226px" height="168px"><p class="main_p1">尤达大师</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+				</div><!-- //main_list -->
+				<p><span style="color:#DA491C;font-size:2em;font-weight:bold;margin-right:10px;">|</span><span style="color:#333;font-size:2em;">精选分类</span><span><a href="" class="more">More</a></span></p>
+				<div class="nav_two">
+			        <div class="line_1"></div>
+			        <div class="line_2"></div>
+		        	<ul class="nav_ul">
+		            	<li class="active">全部</li>
+		                <li>工具</li>
+		                <li>饰品</li>
+		                <li>首饰</li>
+		                <li>家居</li>
+		                <li>模型</li>
+		                <li>建筑</li>
+		                <li>礼品</li>
+		            </ul>
+		       </div>
+				<div class="main_list">
+					<div class="one_main">
+						<a href=""><img src="images/po6.jpg" width="226px" height="168px"><p class="main_p1">中世纪城堡</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po7.jpg" width="226px" height="168px"><p class="main_p1">大理石纹理灯具</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po8.jpg" width="226px" height="168px"><p class="main_p1">螺旋花瓶</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po9.jpg" width="226px" height="168px"><p class="main_p1">灯具</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po10.jpg" width="226px" height="168px"><p class="main_p1">Low Poly植物</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+				</div><!-- //main_list -->
+				<div class="main_list">
+					<div class="one_main">
+						<a href=""><img src="images/po11.jpg" width="226px" height="168px"><p class="main_p1">iPhone 5齿轮手机</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po12.jpg" width="226px" height="168px"><p class="main_p1">折叠灯灯罩</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po13.jpg" width="226px" height="168px"><p class="main_p1">分线器</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po14.jpg" width="226px" height="168px"><p class="main_p1">发电机的螺母旋钮</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+					<div class="one_main">
+						<a href=""><img src="images/po15.jpg" width="226px" height="168px"><p class="main_p1">地牢游戏</p><div class="hover_bg" style="display: none;"></div></a>
+						<div class="main_btn">
+							<div class="main_down">模型下载</div>
+							<div class="main_shou">收藏</div>
+						</div>
+					</div><!-- one_main -->
+				</div><!-- //main_list -->
+			</div><!-- //row2 -->
+			<div id="row3">
+				<p><span style="color:#DA491C;font-size:2em;font-weight:bold;margin-right:10px;">|</span><span style="color:#333;font-size:2em;">玩转模型</span><span><a href="" class="more">More</a></span></p>
+				<div style="margin:30px 0px;"><a href=""><img src="images/pb5.jpg"/></a></div>
+				<div class="bottom_type" style="margin-bottom: 60px;">
+			    	<div class="b_p1">
+			        	<img src="images/icon_1.png" width="40" height="52">
+			            <div class="p1_b">
+			            	<p class="p1_s">寻找灵感</p>
+			                <p class="p1_s1">关注全球最新3D打印咨询，分享国内外最新鲜最有趣的图片。</p>
+			            </div>
+			        </div><!--b_p1-->
+	        		<div class="b_p1">
+			        	<img src="images/icon_2.png" width="45" height="52">
+			            <div class="p1_b">
+			            	<p class="p1_s">在线互动</p>
+			                <p class="p1_s1">汇聚国内外上千名设计师及3D打印爱好者，一起交流互动。</p>
+			            </div>
+			        </div><!--b_p2-->
+	        		<div class="b_p1">
+			        	<img src="images/icon_3.png" width="45" height="52">
+			            <div class="p1_b">
+			            	<p class="p1_s">在线下单</p>
+			                <p class="p1_s1">1500种材质，全球顶尖大型机器24小时打印，一小时快速制作。</p>
+			            </div>
+			        </div><!--b_p3-->
+	        		<div class="btn_zhuc"><a class="btn" href="">立即注册</a></div>
+    			</div><!-- //bottom_type -->
+			</div><!-- //row3 -->
+		</div><!-- //container -->
+	</div><!-- //content -->
+
+	<div id="footer">
+		<div id="tableContainer" class="container">
+			<div id="tableRow">
+				<div class="footer-left">
+					<ul>
+						<li><a href="index.html">主页</a></li>
+						<li><a href="about.html">关于</a></li>
+						<li><a href="products.html">产品展示</a></li>
+						<li><a href="404.html">活动</a></li>
+						<li><a href="mail.html">联系我们</a></li>
+					</ul>
+					<form>
+						<input type="text" placeholder="Email" required="">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="footer-middle">
+					<h1>地址</h1>
+					<div class="address">
+						<p>广西大学,计算机与电子信息学院
+							<span>西 26栋 701 宿舍</span>
+						</p>
+					</div>
+					<div class="phone">
+						<p>(0771)18277195746</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<h1 style="font-size:2.8em">3DPrint</h1>
+					<p>Proin eget ipsum ultrices, aliquet velit eget, tempus tortor. Phasellus non velit sit amet diam faucibus molestie tincidunt efficitur nisi.</p>
+				</div>
+			</div>
+		</div>
+	</div><!-- //footer -->
+	
+	<div id="copyright">
+		<div class="container">
+			<div id="tableContainer">
+				<div id="tableRow">
+					<div class="copyright-left">
+						<p>Copyright &copy; 2016. Mr.Wang And Mis.Zhang Web Frount Work. More Templates <a href="#">王杰章与张嘉琦的网页设计大作业</a> - Collect from <a href="#">个人主页</a> </p>
+					</div>
+					<div class="copyright-right">
+						<ul>
+							<li><a href="#" class="twitter"> </a></li>
+							<li><a href="#" class="twitter facebook"> </a></li>
+							<li><a href="#" class="twitter chrome"> </a></li>
+							<li><a href="#" class="twitter pinterest"> </a></li>
+							<li><a href="#" class="twitter linkedin"> </a></li>
+							<li><a href="#" class="twitter dribbble"> </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- //copyright -->
+</body>
+</html>

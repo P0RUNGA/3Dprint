@@ -1,0 +1,140 @@
+#footer{
+	clear: both;
+}
+#row0{
+	margin-top: 50px;
+}
+.more:hover{
+	text-decoration: underline;
+}
+.app-left {
+	float: left;
+	padding-top: 22px;
+}
+.app-left img:hover{
+	opacity: 0.8;
+}
+.app-left img{
+	transition: all 0.5s ease 0.2s;
+	-o-transition: all 0.5s ease 0.2s;
+	-moz-transition: all 0.5s ease 0.2s;
+	-ms-transition: all 0.5s ease 0.2s;
+	-webkit-transition: all 0.5s ease 0.2s;
+}
+.app-left img:hover + .app-info{
+	color: #DA491C;
+}
+.app-left .app-info {
+	color: #FFF;
+	position: absolute;
+	transition: all 0.5s ease 0.2s;
+	-o-transition: all 0.5s ease 0.2s;
+	-moz-transition: all 0.5s ease 0.2s;
+	-ms-transition: all 0.5s ease 0.2s;
+	-webkit-transition: all 0.5s ease 0.2s;
+}
+.app-left .app-title{
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 40px;
+	padding: 0 30px;
+	margin-top: -100px;
+}
+.app-left .app-desc{
+	color: #fff;
+	font-size: 13px;
+	width: 250px;
+	padding: 0 30px;
+}
+.app-right {
+	float: left;
+	height: 500px;
+	overflow: hidden;
+	width: 900px;
+	margin-top: 5px;
+}
+.app-right .app-card{
+	width: 299px;
+	height: 249px;
+	float: left;
+	border-left: 1px solid #f0f0f0;
+	border-top: 1px solid #f0f0f0;
+	background-repeat: no-repeat;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+}
+.app-right .app-card .app-info .app-title{
+	color: #353535;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 30px;
+	padding-left: 30px;
+	width: 65%;
+}
+.app-right .app-card .app-info .app-desc{
+	color: #939393;
+	font-size: 13px;
+	padding-left: 30px;
+	width: 66%;
+}
+.app-right .row2 {
+	width: 598px;
+	border-right: 1px solid #f0f0f0;
+}
+#row2 .tj{
+	width: 283px;
+	float: left;
+	margin: 30px 22px 50px 0px;
+}
+.foot .desc-top{
+	text-align: center;
+	color: black;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	transition: color 0.5s;
+	-o-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-ms-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+}
+.foot .desc-top:hover{
+	color: #DA491C;
+}
+.foot .desc{
+	color: #666;
+}
+#row3container{
+	clear: both;
+	height: 640px;
+}
+#row3{
+	background-image: url(../images/ab11.jpg);
+	background-size: cover;
+	min-height: 447px;
+}
+#row3 table{
+	border-collapse: collapse;
+	position: absolute;
+}
+#row3 table tr td{
+	width: 200px;
+	height: 200px;
+}
+.aleft {
+	display: block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	background-image: url("../images/index/left.png");
+	background-repeat: no-repeat;
+}
+.aright {
+	display: block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin-left: 8px;
+	background-image: url("../images/index/right.png");
+	background-repeat: no-repeat;
+}
